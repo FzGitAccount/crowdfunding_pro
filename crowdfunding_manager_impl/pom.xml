@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>crowdfunding_manager_impl</artifactId>
+  <build/>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.fz</groupId>
+  		<artifactId>crowdfunding_manager_api</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.fz</groupId>
+  		<artifactId>crowdfunding_commom</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.fz</groupId>
+  		<artifactId>crowdfunding_main</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  		<type>war</type>
+  	</dependency>
+  </dependencies>
+  <parent>
+  	<groupId>com.fz</groupId>
+  	<artifactId>crowdfunding_parent</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<relativePath>../crowdfunding_parent/pom.xml</relativePath>
+  </parent>
+</project>
